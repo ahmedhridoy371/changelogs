@@ -1,0 +1,47 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 7/7s (Lavender)
+Device maintainer: Ahmed Hridoy (@Apex_Not_Legend)
+
+===== 16 June 2023 =======
+Fixed Gps Dead
+Fixed Night light & dim not working on last build
+Fixed Gcam Crash(Gcam Should Works Fine now)
+
+===== 16 May 2023 =======
+Switch to nekolite kernel
+
+===== 19 April 2023 =====
+lavender: Add tethering usb props
+lavender: Extend buffer size to 256kb for offload playback
+lavender: props: Disable vsync for CPU rendered Apps
+lavender: Reduce TASchedtuneBoost duration
+lavender: rootdir: Enable suspend to RAM
+
+===== 19 February 2023 =====
+lavender: qcom-caf: audio: Remove ndk_platform backend. Use the ndk backend
+lavender: Kill IMS logspam
+lavender: Remove unnecessary QTI logkit directories
+lavender: rootdir: Increase ZRAM size to 70% of Ram size
+lavender: rootdir zRAM tuning
+lavender: props: Disable Skia tracing by default
+lavender: Speed profile services and wifi-service to reduce RAM
+lavender: overlay: Offload WM shell to another thread
+lavender: overlay: Allow more cached apps in the background
+lavender: overlay: Compact cached app heaps in the background
+lavender: props: Enable display protected contents in SF
+
+===== 29 January 2023 =====
+camera: Disable QTI perf lock usage in camera HAL
+parts: Add headphones warning for clear speaker
+parts: Update clear speaker audio from MIUI 12
+parts: Adapt vibration control to QTI Haptics
+parts: Adjust FPS Overlay
+lavender: disable gl backpressure
+lavender: update Time services from LA.UM.9.6.2.r1-03600-89xx.0
+lavender: Drop duplicate displayservice
+lavender: props: enable vsync and disable backpressure
+lavender: proprietary: import libgps.utils.so from V12.5.1.0.QFGRUXM
+lavender: set NUM_FRAMEBUFFER_SURFACE_BUFFERS
+lavender: Don't write binary XML files
+lavender: add offline charging animation from pixel
